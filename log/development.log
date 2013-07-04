@@ -26007,3 +26007,178 @@ Served asset /users.js - 304 Not Modified (1ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-04 14:08:53 -0400
 Served asset /application.js - 304 Not Modified (10ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.1ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 148ms (Views: 91.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /restaurants.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /reservations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /reservations.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /restaurants.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:53 -0400
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (8.3ms)
+  Rendered sessions/new.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 71ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-04 14:12:58 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xbvcDbG+El1XI2zUxACdpBsgxGA+dYcnq5+8o4vKyOM=", "session"=>{"email"=>"seconduser@two.co", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'seconduser@two.co' LIMIT 1
+Redirected to http://localhost:3000/users/10
+Completed 302 Found in 313ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/10" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered users/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 63ms (Views: 61.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-04 14:13:03 -0400
+Served asset /users.js - 304 Not Modified (0ms)
