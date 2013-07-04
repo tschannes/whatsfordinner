@@ -3,7 +3,6 @@ module SessionsHelper
   def sign_in(user)
     cookies.permanent[:remember_token] = user.remember_token
     self.current_user = user
-
   end
 
   def current_user=(user)
@@ -19,7 +18,8 @@ module SessionsHelper
   end
 
   def signed_in?
-    !current_user.nil?
+    puts "it is calling this method"
+    # !@current_user.nil?
   end
 
   def signed_in_user

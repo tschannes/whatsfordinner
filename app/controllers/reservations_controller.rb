@@ -3,9 +3,18 @@ class ReservationsController < ApplicationController
   end
 
   def create
+    @restaurant = Restaurant.find(params[:restaurant_id])
+    @reservation = Reservation.new(params[:restaurant])
+    if @reservation.save
+      redirect_to root_path, notice: 'reservation successful!'
+    else
+      redirect_to root_path, notice: "reservation failed..."
+    end
   end
 
   def new
+    @restaurant = Restaurant.find(params[:restaurant_id])
+    @reservation = Reservation.new
   end
 
   def edit
