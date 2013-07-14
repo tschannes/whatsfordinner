@@ -18,11 +18,12 @@
 
 <nav>
   <%= link_to "Home", root_path %></br>
-  <% if current_user == @user %>
+  'current_user' is <%= @current_user.inspect %><br>
+  <% if signed_in? %>
     <%= link_to "Sign out", signout_path %><br>
     <%= link_to "New Restaurant", new_restaurant_path %></br>
 
-  <% else %>
+  <% elsif %>
       <%= link_to "Sign up", new_user_path %></br>
       <%= link_to "Sign in", new_session_path %><br>
 

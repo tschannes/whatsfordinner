@@ -20455,3 +20455,2107 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 78ms (Views: 61.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /restaurants.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /reservations.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:52 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (24.9ms)
+  Rendered sessions/new.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 72ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /reservations.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:52:56 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-07-14 16:53:04 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xbvcDbG+El1XI2zUxACdpBsgxGA+dYcnq5+8o4vKyOM=", "session"=>{"email"=>"tschannes", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'tschannes' LIMIT 1
+Redirected to http://localhost:3000/users/14
+Completed 302 Found in 322ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 63ms (Views: 61.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /restaurants.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:53:05 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:54:25 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Compiled application.css  (2ms)  (pid 13148)
+Completed 200 OK in 75ms (Views: 73.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /application.css - 200 OK (18ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /restaurants.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:16 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Compiled application.css  (2ms)  (pid 13148)
+Completed 200 OK in 75ms (Views: 73.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:55:54 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:56:00 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:56:00 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2013-07-14 16:56:08 -0400
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:56:08 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT "restaurants".* FROM "restaurants" 
+  Rendered restaurants/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:56:08 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/restaurants/22" for 127.0.0.1 at 2013-07-14 16:56:12 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT 1[0m  [["id", "22"]]
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 25 LIMIT 1
+  Rendered restaurants/show.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 88ms (Views: 85.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:56:12 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2013-07-14 16:56:17 -0400
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:56:17 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:56:17 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT "restaurants".* FROM "restaurants" 
+  Rendered restaurants/index.html.erb within layouts/application (1.6ms)
+Compiled application.css  (2ms)  (pid 13148)
+Completed 200 OK in 76ms (Views: 74.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /application.css - 200 OK (19ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /restaurants.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /restaurants.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:56:50 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:57:25 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.6ms)
+Compiled application.css  (3ms)  (pid 13148)
+Completed 200 OK in 80ms (Views: 78.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:57:25 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT "restaurants".* FROM "restaurants" 
+  Rendered restaurants/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:25 -0400
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:25 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:25 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /restaurants.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /restaurants.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:26 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT "restaurants".* FROM "restaurants" 
+  Rendered restaurants/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /restaurants.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:32 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /restaurants.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:35 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT "restaurants".* FROM "restaurants" 
+  Rendered restaurants/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:38 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2013-07-14 16:57:39 -0400
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:57:39 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /restaurants.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Processing by RestaurantsController#new as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered restaurants/_restaurantform.html.erb (26.4ms)
+  Rendered restaurants/new.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /restaurants.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:57:44 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT "restaurants".* FROM "restaurants" 
+  Rendered restaurants/index.html.erb within layouts/application (1.5ms)
+Compiled application.css  (2ms)  (pid 13148)
+Completed 200 OK in 77ms (Views: 76.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /application.css - 200 OK (18ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /restaurants.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:59:48 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:16 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT "restaurants".* FROM "restaurants" 
+  Rendered restaurants/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:00:19 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-07-14 17:00:22 -0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (20.8ms)
+  Rendered users/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-07-14 17:00:24 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (1.7ms)
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 60ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-07-14 17:00:31 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xbvcDbG+El1XI2zUxACdpBsgxGA+dYcnq5+8o4vKyOM=", "session"=>{"email"=>"tschannes", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'tschannes' LIMIT 1[0m
+Redirected to http://localhost:3000/users/14
+Completed 302 Found in 258ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:00:31 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:01:38 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 91ms
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x007ff284f957f8>:0x007ff284f9bb08>):
+    18: 
+    19: <nav>
+    20:   <%= link_to "Home", root_path %></br>
+    21:   <% if current_user.present? %>
+    22:     <%= link_to "Sign out", signout_path %><br>
+    23:     <%= link_to "New Restaurant", new_restaurant_path %></br>
+    24: 
+  app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___3352618736588490177_70339794930280'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 73ms (Views: 60.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:02:30 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /reservations.css - 200 OK (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /reservations.js - 200 OK (2ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:03:59 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 63ms (Views: 61.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /restaurants.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /restaurants.js - 200 OK (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:04:59 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /reservations.css - 200 OK (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:05:31 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /reservations.js - 200 OK (4ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:22 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /reservations.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:06:37 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /reservations.js - 200 OK (2ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:50 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:07:52 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:12:08 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Session):
+    18: 
+    19: <nav>
+    20:   <%= link_to "Home", root_path %></br>
+    21:   'current_user' is <%= Session.current_user.inspect %><br>
+    22:   <% if current_user %>
+    23:     <%= link_to "Sign out", signout_path %><br>
+    24:     <%= link_to "New Restaurant", new_restaurant_path %></br>
+  app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___3352618736588490177_70339794626840'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /application.css - 200 OK (25ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /restaurants.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /reservations.js - 200 OK (1ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:12:36 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:13:27 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 76ms
+
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007ff284f24418>:0x007ff284df6a78>):
+    18: 
+    19: <nav>
+    20:   <%= link_to "Home", root_path %></br>
+    21:   'current_user' is <%= current_user=(user).inspect %><br>
+    22:   <% if current_user %>
+    23:     <%= link_to "Sign out", signout_path %><br>
+    24:     <%= link_to "New Restaurant", new_restaurant_path %></br>
+  app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___3352618736588490177_70339794014220'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:14:26 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 76ms
+
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007ff284f24418>:0x007ff284f44a88>):
+    18: 
+    19: <nav>
+    20:   <%= link_to "Home", root_path %></br>
+    21:   'current_user' is <%= current_user=(user).inspect %><br>
+    22:   <% if current_user %>
+    23:     <%= link_to "Sign out", signout_path %><br>
+    24:     <%= link_to "New Restaurant", new_restaurant_path %></br>
+  app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___3352618736588490177_70339794700500'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /reservations.css - 200 OK (2ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:14:47 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:16:20 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:19:04 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (undefined method `current_user' for #<UsersController:0x007ff2849e3b98>):
+    19: <nav>
+    20:   <%= link_to "Home", root_path %></br>
+    21:   'current_user' is <%= @current_user.inspect %><br>
+    22:   <% if current_user %>
+    23:     <%= link_to "Sign out", signout_path %><br>
+    24:     <%= link_to "New Restaurant", new_restaurant_path %></br>
+    25: 
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___3352618736588490177_70339794551940'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (18.2ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.9ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:19:37 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionView::Template::Error (undefined method `current_user' for #<UsersController:0x007ff284f205c0>):
+    23:     <%= link_to "Sign out", signout_path %><br>
+    24:     <%= link_to "New Restaurant", new_restaurant_path %></br>
+    25: 
+    26:   <% elsif !current_user %>
+    27:       <%= link_to "Sign up", new_user_path %></br>
+    28:       <%= link_to "Sign in", new_session_path %><br>
+    29: 
+  app/views/layouts/application.html.erb:26:in `_app_views_layouts_application_html_erb___3352618736588490177_70339794596440'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.3ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /reservations.js - 200 OK (2ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:19:54 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-07-14 17:20:10 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (1.8ms)
+  Rendered sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 60ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-07-14 17:20:18 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xbvcDbG+El1XI2zUxACdpBsgxGA+dYcnq5+8o4vKyOM=", "session"=>{"email"=>"tschannes", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'tschannes' LIMIT 1[0m
+Redirected to http://localhost:3000/users/14
+Completed 302 Found in 259ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:20:18 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:21:26 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 64ms
+
+ActionView::Template::Error (undefined method `current_user' for #<UsersController:0x007ff284e87618>):
+    19: <nav>
+    20:   <%= link_to "Home", root_path %></br>
+    21:   'current_user' is <%= @current_user.inspect %><br>
+    22:   <% if signed_in? %>
+    23:     <%= link_to "Sign out", signout_path %><br>
+    24:     <%= link_to "New Restaurant", new_restaurant_path %></br>
+    25: 
+  app/helpers/sessions_helper.rb:22:in `signed_in?'
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___3352618736588490177_70339794296720'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 73ms (Views: 61.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /reservations.css - 200 OK (5ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /reservations.js - 200 OK (4ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 17:22:32 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-07-14 17:22:50 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (1.7ms)
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 44ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-07-14 17:22:56 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xbvcDbG+El1XI2zUxACdpBsgxGA+dYcnq5+8o4vKyOM=", "session"=>{"email"=>"tschannes", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'tschannes' LIMIT 1[0m
+Redirected to http://localhost:3000/users/14
+Completed 302 Found in 262ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:22:57 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:27:45 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (undefined method `current_user' for #<UsersController:0x007ff284fb62f0>):
+    19: <nav>
+    20:   <%= link_to "Home", root_path %></br>
+    21:   'current_user' is <%= @current_user.inspect %><br>
+    22:   <% if signed_in? %>
+    23:     <%= link_to "Sign out", signout_path %><br>
+    24:     <%= link_to "New Restaurant", new_restaurant_path %></br>
+    25: 
+  app/helpers/sessions_helper.rb:22:in `signed_in?'
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___3352618736588490177_70339794296720'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 17:29:30 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (undefined method `current_user' for #<UsersController:0x007ff2849dbb28>):
+    19: <nav>
+    20:   <%= link_to "Home", root_path %></br>
+    21:   'current_user' is <%= @current_user.inspect %><br>
+    22:   <% if signed_in?(current_user) %>
+    23:     <%= link_to "Sign out", signout_path %><br>
+    24:     <%= link_to "New Restaurant", new_restaurant_path %></br>
+    25: 
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___3352618736588490177_70339794889800'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (17.9ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.1ms)

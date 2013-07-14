@@ -9,6 +9,8 @@ class User < ActiveRecord::Base
   validates_presence_of :email
   validates :email, :on => :create, :uniqueness => true
 
+  before_save { |user| user.email = email.downcase }
+  before_save :create_remember_token
 
   has_many :reservations
   has_many :restaurants, through: :reservations
