@@ -6,6 +6,11 @@
   </p>
 
   <p>
+    <%= f.label "type of user" %>
+    <%= f.select :role, [["Customer","customer"],["Admin","admin"]] %>
+  </p>
+
+  <p>
     <%= f.label "password" %><br>
     <%= f.password_field "password" %>
   </p>

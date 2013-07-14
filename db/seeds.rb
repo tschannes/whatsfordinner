@@ -73,4 +73,44 @@ Restaurant.create!(
   category_id: Category.first.id
   )
 
+User.delete_all
 
+User.create!(
+  email: "user1@one.co",
+  password: "123",
+  password_confirmation: "123",
+  role: "customer",
+  points: 0
+  )
+
+User.create!(
+  email: "seconduser@two.co",
+  password: "123",
+  password_confirmation: "123",
+  role: "customer",
+  points: 0
+  )
+
+User.create!(
+  email: "userthree@3.co",
+  password: "123",
+  password_confirmation: "123",
+  role: "customer",
+  points: 0
+  )
+
+User.create!(
+  email: "fourth@four.co",
+  password: "123",
+  password_confirmation: "123",
+  role: "customer",
+  points: 0
+  )
+
+User.create!(
+  email: "five@userfive.co",
+  password: "123",
+  password_confirmation: "123",
+  role: "customer",
+  points: 0
+  )
