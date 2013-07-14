@@ -10,7 +10,9 @@ Whatsfordinner::Application.routes.draw do
 
   resources :sessions, only: [:new, :create, :destroy]
 
-  root to: 'restaurants#index'
+  match '/signout', to: 'sessions#destroy', via: :delete
+  match '/signout', to: 'sessions#destroy', via: :get
 
+  root to: 'restaurants#index'
 
 end

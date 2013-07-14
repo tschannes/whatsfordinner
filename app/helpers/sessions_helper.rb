@@ -15,11 +15,7 @@ module SessionsHelper
   end
 
   def signed_in?
-    if @current_user != nil
-      return true
-    else
-      return false
-    end
+    !current_user.nil?
   end
 
   def signed_in_user
@@ -32,8 +28,4 @@ module SessionsHelper
     user.role == "admin"
   end
 
-  # def signed_in_as_role
-  #   if is_admin?
-
-  #   else
 end

@@ -19450,3 +19450,1008 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:16:22 -0400
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/10" for 127.0.0.1 at 2013-07-14 16:26:48 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 73ms (Views: 61.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:26:49 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:27:00 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.1ms)[0m  SELECT "restaurants".* FROM "restaurants" 
+  Rendered restaurants/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 77ms (Views: 44.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.1ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 78ms (Views: 62.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /restaurants.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:36 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-07-14 16:29:44 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (2.0ms)
+  Rendered sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:45 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (4.1ms)
+  Rendered users/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 74ms (Views: 63.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /reservations.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:29:48 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-07-14 16:30:05 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xbvcDbG+El1XI2zUxACdpBsgxGA+dYcnq5+8o4vKyOM=", "user"=>{"email"=>"tschannes", "role"=>"admin", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"save"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'tschannes' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "email", "password_digest", "points", "remember_token", "role", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 14 Jul 2013 20:30:06 UTC +00:00], ["email", "tschannes"], ["password_digest", "$2a$10$hedIsTENocRBbsG.deqURetKwaw1l6AAGbTXWrXk3doH3zUJXkbEy"], ["points", 0], ["remember_token", nil], ["role", "admin"], ["updated_at", Sun, 14 Jul 2013 20:30:06 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 276ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT "restaurants".* FROM "restaurants" 
+  Rendered restaurants/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /reservations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:06 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (1.7ms)
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 62ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /restaurants.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /reservations.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:15 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xbvcDbG+El1XI2zUxACdpBsgxGA+dYcnq5+8o4vKyOM=", "session"=>{"email"=>"tschannes", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'tschannes' LIMIT 1[0m
+Redirected to http://localhost:3000/users/14
+Completed 302 Found in 259ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 61ms (Views: 59.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /restaurants.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:30:23 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 16:31:35 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+ERROR: compiling _app_views_layouts_application_html_erb__2185826350462269981_70219198304720 RAISED /Users/bitmaker/Desktop/dtredger/whatsfordinner/app/views/layouts/application.html.erb:20: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+...uffer.append= ( if signed_in? );@output_buffer.safe_concat('
+...                               ^
+/Users/bitmaker/Desktop/dtredger/whatsfordinner/app/views/layouts/application.html.erb:24: syntax error, unexpected keyword_else, expecting ')'
+');   else 
+          ^
+/Users/bitmaker/Desktop/dtredger/whatsfordinner/app/views/layouts/application.html.erb:28: syntax error, unexpected keyword_end, expecting ')'
+');   end 
+         ^
+/Users/bitmaker/Desktop/dtredger/whatsfordinner/app/views/layouts/application.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/bitmaker/Desktop/dtredger/whatsfordinner/app/views/layouts/application.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_layouts_application_html_erb__2185826350462269981_70219198304720(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<!DOCTYPE html>
+<html>
+<head>
+  <title>Whatsfordinner</title>
+  ');@output_buffer.append= ( stylesheet_link_tag    "application", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  ');@output_buffer.append= ( javascript_include_tag "application" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  ');@output_buffer.append= ( csrf_meta_tags );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</head>
+<body>
+');	 if flash[:notice] 
+@output_buffer.safe_concat('      <p id="notice">');@output_buffer.append= ( flash[:notice] );@output_buffer.safe_concat('</p>
+');     end 
+     if flash[:alert] 
+@output_buffer.safe_concat('       <p id="alert">');@output_buffer.append= ( flash[:alert] );@output_buffer.safe_concat('</p>
+');     end 
+@output_buffer.safe_concat('
+');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.append= ( link_to "Home", root_path );@output_buffer.safe_concat('</br>
+<nav>
+  ');@output_buffer.append= ( if signed_in? );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( link_to "Sign out", {action:"destroy"}, method: :delete, data: { confirm: "Are you sure?" } );@output_buffer.safe_concat('<br>
+    ');@output_buffer.append= ( link_to "New Restaurant", new_restaurant_path );@output_buffer.safe_concat('</br>
+
+');   else 
+@output_buffer.safe_concat('      ');@output_buffer.append= ( link_to "Sign up", new_user_path );@output_buffer.safe_concat('</br>
+      ');@output_buffer.append= ( link_to "Sign in", new_session_path );@output_buffer.safe_concat('<br>
+
+');   end 
+@output_buffer.safe_concat('</nav>
+</body>
+</html>
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `module_eval'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `compile'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/template.rb:232:in `compile!'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/template.rb:144:in `block in render'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/notifications.rb:125:in `instrument'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/template.rb:143:in `render'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:414:in `_run__1953527187655529864__process_action__1451905039897101950__callbacks'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:121:in `process'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_controller/metal.rb:246:in `block in action'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:612:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.13/lib/active_record/query_cache.rb:64:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `_run__3907640587084670350__call__2801084053136936382__callbacks'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/railties-3.2.13/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/static.rb:63:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/railties-3.2.13/lib/rails/engine.rb:479:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/railties-3.2.13/lib/rails/application.rb:223:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/railties-3.2.13/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (/Users/bitmaker/Desktop/dtredger/whatsfordinner/app/views/layouts/application.html.erb:20: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+...uffer.append= ( if signed_in? );@output_buffer.safe_concat('
+...                               ^
+/Users/bitmaker/Desktop/dtredger/whatsfordinner/app/views/layouts/application.html.erb:24: syntax error, unexpected keyword_else, expecting ')'
+');   else 
+          ^
+/Users/bitmaker/Desktop/dtredger/whatsfordinner/app/views/layouts/application.html.erb:28: syntax error, unexpected keyword_end, expecting ')'
+');   end 
+         ^
+/Users/bitmaker/Desktop/dtredger/whatsfordinner/app/views/layouts/application.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/bitmaker/Desktop/dtredger/whatsfordinner/app/views/layouts/application.html.erb:35: syntax error, unexpected keyword_end, expecting ')'):
+    17: <%= yield %>
+    18: <%= link_to "Home", root_path %></br>
+    19: <nav>
+    20:   <%= if signed_in? %>
+    21:     <%= link_to "Sign out", {action:"destroy"}, method: :delete, data: { confirm: "Are you sure?" } %><br>
+    22:     <%= link_to "New Restaurant", new_restaurant_path %></br>
+    23: 
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.13) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.13) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.13) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.13) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.13) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__1953527187655529864__process_action__1451905039897101950__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__3907640587084670350__call__2801084053136936382__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 64ms (Views: 62.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /restaurants.css - 200 OK (2ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /reservations.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:31:45 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 16:32:42 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 58ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0x007fba5cb73018>:0x007fba5cc65bb0>):
+    17: <%= yield %>
+    18: <%= link_to "Home", root_path %></br>
+    19: <nav>
+    20:   <% if signed_in_user %>
+    21:     <%= link_to "Sign out", {action:"destroy"}, method: :delete, data: { confirm: "Are you sure?" } %><br>
+    22:     <%= link_to "New Restaurant", new_restaurant_path %></br>
+    23: 
+  app/helpers/sessions_helper.rb:23:in `signed_in_user'
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__2185826350462269981_70219198564520'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /reservations.css - 200 OK (22ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /restaurants.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /reservations.js - 200 OK (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /restaurants.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:36:15 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:36:27 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:37:03 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT "restaurants".* FROM "restaurants" 
+  Rendered restaurants/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 63ms
+
+ActionController::RoutingError (No route matches {:action=>"destroy", :controller=>"restaurants"}):
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__2185826350462269981_70219198033760'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:39:41 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 63ms
+
+ActionController::RoutingError (No route matches {:controller=>"sessions", :action=>"destroy"}):
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__2185826350462269981_70219197980740'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:48:26 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.1ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" [0m
+  Rendered restaurants/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 153ms (Views: 108.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:48:26 -0400
+Served asset /application.css - 200 OK (44ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:48:26 -0400
+Served asset /reservations.css - 200 OK (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:48:26 -0400
+Served asset /sessions.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:48:26 -0400
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:48:26 -0400
+Served asset /restaurants.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:48:27 -0400
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:48:27 -0400
+Served asset /reservations.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:48:27 -0400
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:48:27 -0400
+Served asset /restaurants.js - 200 OK (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:48:27 -0400
+Served asset /sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:48:27 -0400
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:48:27 -0400
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2013-07-14 16:48:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/signout"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/bitmaker/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2013-07-14 16:49:22 -0400
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 16:49:22 -0400
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.1ms)[0m  SELECT "restaurants".* FROM "restaurants" 
+  Rendered restaurants/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 73ms (Views: 57.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /reservations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /restaurants.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /reservations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /restaurants.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 16:49:23 -0400
+Served asset /application.js - 304 Not Modified (0ms)
