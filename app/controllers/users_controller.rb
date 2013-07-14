@@ -5,13 +5,11 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.find(params[:email])
-    if @user && @user.authentication(params[:email])
-      session[:user_id] = @user.id
-      redirect_to user_path, :notice => "Welcome back, #{user.email}! Time to Eat!" #We want this to go to the user's dashboard page.
+    @user = User.new(params[:user])
+    if @user.save
+      redirect_to root_path, :notice => "You successfully registered!"
     else
-      flash.now.alert = "Invalid email or password"
-      render 'new'
+      render "users/new", :notice => "Something went wrong!"
     end
   end
 
@@ -20,6 +18,13 @@ class UsersController < ApplicationController
   end
 
   def update
+    @user = User.find(params[:id])
+    
+    if @user.update_attributes(params[:user])
+      redirect_to products_url, :notice => "Profile was successfully updated"
+    else
+      render "show"
+    end
   end
 
   def show

@@ -6,4 +6,6 @@ class Restaurant < ActiveRecord::Base
 
   belongs_to :category
 
+  validates :address, :menu, :neighborhood, :num_seats, :price_range, :summary, :timeslots_available, :category_id, :presence => true
+  
 end
