@@ -80,7 +80,8 @@ User.create!(
   password: "123",
   password_confirmation: "123",
   role: "customer",
-  points: 0
+  points: 0,
+  remember_token: SecureRandom.urlsafe_base64
   )
 
 User.create!(
@@ -88,7 +89,8 @@ User.create!(
   password: "123",
   password_confirmation: "123",
   role: "customer",
-  points: 0
+  points: 0,
+  remember_token: SecureRandom.urlsafe_base64
   )
 
 User.create!(
@@ -96,7 +98,8 @@ User.create!(
   password: "123",
   password_confirmation: "123",
   role: "customer",
-  points: 0
+  points: 0,
+  remember_token: SecureRandom.urlsafe_base64
   )
 
 User.create!(
@@ -104,7 +107,8 @@ User.create!(
   password: "123",
   password_confirmation: "123",
   role: "customer",
-  points: 0
+  points: 0,
+  remember_token: SecureRandom.urlsafe_base64
   )
 
 User.create!(
@@ -112,5 +116,6 @@ User.create!(
   password: "123",
   password_confirmation: "123",
   role: "customer",
-  points: 0
+  points: 0,
+  remember_token: SecureRandom.urlsafe_base64
   )

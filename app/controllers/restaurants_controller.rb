@@ -6,7 +6,7 @@ class RestaurantsController < ApplicationController
 
   def create
     @restaurant = Restaurant.new(params[:restaurant])
-  
+
     respond_to do |format|
       if @restaurant.save
         format.html { redirect_to @restaurant,
@@ -55,6 +55,9 @@ class RestaurantsController < ApplicationController
   end
 
   def destroy
+    @restaurant = Restaurant.find(params[:id])
+    @restaurant.destroy
+    redirect_to root_path, :notice => "Deleted!"
   end
 
 end

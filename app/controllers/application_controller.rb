@@ -15,5 +15,10 @@ class ApplicationController < ActionController::Base
 			redirect_to new_session_path
 		end
 	end
-  
+
+	def handle_unverified_request
+    sign_out
+    super
+  end
+
 end

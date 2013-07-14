@@ -8,6 +8,9 @@ Whatsfordinner::Application.routes.draw do
 
   #resources :categories, only: [:get] Not sure if we need a Get request here....
 
+  resources :sessions, only: [:new, :create, :destroy]
+
   root to: 'restaurants#index'
+
 
 end
