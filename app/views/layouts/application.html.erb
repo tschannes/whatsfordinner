@@ -15,11 +15,17 @@
     <% end %>
 
 <%= yield %>
+<%= link_to "Home", root_path %></br>
+<nav>
+  <% if signed_in? %>
+    <%= link_to "Sign out", {action:"destroy"}, method: :delete, data: { confirm: "Are you sure?" } %><br>
+    <%= link_to "New Restaurant", new_restaurant_path %></br>
 
-  	<%= link_to "New Restaurant", new_restaurant_path %></br>
-  	<%= link_to "Sign up", new_user_path %></br>
-  	
-  	<%= link_to "Home", root_path %>
+  <% elsif !signed_in? %>
+      <%= link_to "Sign up", new_user_path %></br>
+      <%= link_to "Sign in", new_session_path %><br>
 
+  <% end %>
+</nav>
 </body>
 </html>
