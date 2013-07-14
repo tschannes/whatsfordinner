@@ -1,6 +1,11 @@
 <%= form_for @restaurant do |f| %>
 
   <p>
+    <%= f.label "name" %><br>
+    <%= f.text_field "name" %>
+  </p>
+
+  <p>
     <%= f.label "address" %><br>
     <%= f.text_field "address" %>
   </p>

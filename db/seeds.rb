@@ -26,6 +26,7 @@ Category.create!(
 Restaurant.delete_all
 
 Restaurant.create!(
+  name: "Dennys",
   address: "111 street",
   menu: "cool menu",
   neighborhood: "shankville",
@@ -37,6 +38,7 @@ Restaurant.create!(
   )
 
 Restaurant.create!(
+  name: "Golden Griddle",
   address: "222 ave",
   menu: "bad menu",
   neighborhood: "scarytown",
@@ -48,6 +50,7 @@ Restaurant.create!(
   )
 
 Restaurant.create!(
+  name: "Subway",
   address: "333 road",
   menu: "marginal menu",
   neighborhood: "malibu",
@@ -59,6 +62,7 @@ Restaurant.create!(
   )
 
 Restaurant.create!(
+  name: "McDonalds",
   address: "444 close",
   menu: "terrible menu",
   neighborhood: "crackton",
