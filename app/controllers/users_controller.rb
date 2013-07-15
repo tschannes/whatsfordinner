@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  include SessionsHelper
 
   def new
     @user = User.new
@@ -8,6 +9,7 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     @user.points = 0
     if @user.save
+      sign_in @user
       redirect_to root_path, :notice => "You successfully registered!"
     else
       render "users/new", :notice => "Something went wrong!"

@@ -18,7 +18,7 @@
 
 <nav>
   <%= link_to "Home", root_path %></br>
-  'current_user' is <%= @current_user.inspect %><br>
+  'current_user' is <%= current_user.inspect %><br>
   <% if signed_in? %>
     <%= link_to "Sign out", signout_path %><br>
     <%= link_to "New Restaurant", new_restaurant_path %></br>

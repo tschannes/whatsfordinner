@@ -1,11 +1,10 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
+  include SessionsHelper
+
+  helper_method :current_user
 
   private
-
-
-
-	helper_method :current_user
 
 	def ensure_logged_in
 		unless current_user
@@ -15,8 +14,8 @@ class ApplicationController < ActionController::Base
 	end
 
 	def handle_unverified_request
-    sign_out
-    super
-  end
+		sign_out
+    	super
+  	end
 
 end
